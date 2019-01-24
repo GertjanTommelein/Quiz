@@ -166,7 +166,7 @@ background-color:darkgrey;
     height:auto;
     margin-top:25px;
     margin-left:-15px;
-    font-size:1.5em;
+    font-size:1.3em;
 
 }
 #modal-info-question{
@@ -390,5 +390,24 @@ background-color:darkgrey;
      #right-arrow-container{
          display:none;
      }
-     
+     #modal-container{
+         width:80vw;
+         height:80vh;
+         left:10%;
+         margin:5% auto;
+     }
+     #modal-header{
+         display:block;
+     }
+     #modal-header-top{
+         left:0;
+     }
+     #modal-info{
+         margin-left:0px;
+     }
+ }
+ @media only screen and (max-width:400px){
+     #modal-info{
+         font-size:1em;
+     }
  }
