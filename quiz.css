@@ -334,6 +334,7 @@ background-color:darkgrey;
     }
     footer{
         min-width:100%;
+        height:auto;
         
     }
  }
@@ -358,6 +359,6 @@ background-color:darkgrey;
     }
     footer{
         min-width:100%;
-        
+        height:auto;
     }
  }
