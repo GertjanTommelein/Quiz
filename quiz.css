@@ -370,15 +370,25 @@ background-color:darkgrey;
  @media only screen and (max-width:900px){
      #quiz-container{
          width:100vw;
+         border:none;
      }
      #status-container{
          width:100%;
      }
      #question-container{
-         width:90%;
+         width:100%;
+     }
+     #question-display{
+         margin-left:1.5em;
      }
      #input-container{
          width:50vw;
+     }
+     #left-arrow-container{
+         display:none;
+     }
+     #right-arrow-container{
+         display:none;
      }
      
  }
