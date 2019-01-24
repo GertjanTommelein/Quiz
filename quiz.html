@@ -8,10 +8,30 @@
     <title>Quiz game</title>
 </head>
 <body>
+    
+    <!-- Scorescreen modal -->
+    <div id="modal-container">
+        <div id="modal-header">
+           <div id="modal-header-top"> <span title="close" id="close-modal">X</span></div>
+           <span id="modal-info">
+                <div id="modal-info-question">Question</div>
+                <div id="modal-info-answer">Your answer</div>
+                <div id="modal-info-outcome">Outcome</div>
+            </span>
+        </div>
+        <div id="modal-body">
+            <div id="modal-score-container">
+                <div id="modal-question1">Question 1</div>
+                <div id="modal-answer">Zebra</div>
+                <div id="modal-outcome">False</div>
+            </div>
+        </div>
+    </div>
+    <!-- Quiz content -->
     <main id="quiz-container">
         <section id="status-container">
-            <div id="question-count">0/10</div>
-            <div id="points">250</div>
+            <div id="question-count"></div>
+            <div id="points">0</div>
         </section>
         <section id="question-container">
             <div id="left-arrow-container"><div id="left-arrow"></div></div>
