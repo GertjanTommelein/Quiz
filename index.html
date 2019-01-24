@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz hub</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body id="home-body">
+    <header id="home-header"><h1>Quiz app</h1>
+    <div id="home-header-line"></div>        
+    </header>
+    <main id="gamemode-container">
+        <section class="gamemodes" id="classic-mode">Classic mode</section>
+        <section class="gamemodes">Coming soon!</section>
+        <section class="gamemodes">Coming soon!</section>
+
+    </main>
+
+    <footer>
+        <div id="logged-in-screen">
+            <p id="username">Gertjan</p>
+            <p id="logout">Logout</p>
+        </div>
+    </footer>
+    <script src="login.js"></script>
+    <script src="quiz.js"></script>
+    <script>
+        
+    classicMode.addEventListener("click", function(){
+            location.href="quiz.html";
+            
+        });</script>
+</body>
+</html>

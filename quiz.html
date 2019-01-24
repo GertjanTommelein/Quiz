@@ -9,6 +9,7 @@
 </head>
 <body>
     
+    
     <!-- Scorescreen modal -->
     <div id="modal-container">
         <div id="modal-header">
@@ -35,7 +36,7 @@
         </section>
         <section id="question-container">
             <div id="left-arrow-container"><div id="left-arrow"></div></div>
-            <div id="question-display">Here we will show the questions to be viewed by the user and answered at their will.</div>
+            <div id="question-display"></div>
             <div id="right-arrow-container"><div id="right-arrow"></div></div>
         </section>
         <section id="input-container">
@@ -47,6 +48,10 @@
     </main>
     
     
-    <script src="quiz.js"></script>
+    <script src="quiz.js"></script><script>
+        window.onload = function(){
+            play();
+        }
+        </script>
 </body>
 </html>

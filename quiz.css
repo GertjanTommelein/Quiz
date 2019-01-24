@@ -5,6 +5,7 @@
 html{
     font-size:16px;
 }
+ /*=========Quiz Styling=========*/
 #quiz-container{
     display:flex;
     flex-direction:column;
@@ -131,6 +132,7 @@ html{
     box-shadow:0px 1px 0px grey;
     top:3px;
 }
+ /*=========Modal Scorescreen=========*/
 #modal-container{
     display:none;
     width:500px;
@@ -233,3 +235,76 @@ background-color:darkgrey;
     color:white;
     text-shadow:1px 2px 5px;
 }
+ /*=========Home page Styling=========*/
+ #home-body{
+     background-color:#192C94;
+ }
+ #home-header{
+     width:100vw;
+     height:auto;
+     background-color:#192C94;
+     color:yellow;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction:column;
+     font-size:4em;
+ }
+ #home-header-line{
+     width:400px;
+     border:2px solid yellow;
+     margin-top:20px;
+ }
+ #gamemode-container{
+     display:flex;
+     justify-content:center;
+     flex-direction:column;
+     width:40vw;
+     height:50%;
+     background-color:#192C94;
+     margin:auto;
+     margin-top:37px;
+
+ }
+ .gamemodes{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     width:350px;
+     height:66px;
+     background-color:#00126E;
+     color:yellow;
+     border-radius:20px;
+     margin:auto;
+     margin-top:37px;
+     font-size:1.8em;
+     cursor:pointer;
+ }
+ footer{
+     width:100%;
+     height:100px;
+    background-color:#00237E;
+    position:absolute;
+    bottom:0;
+    display:flex;
+    justify-content:flex-end;
+ }
+ #logged-in-screen{
+    background-color:#00237E;
+    width:5em;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    margin-right:0.5em;
+    
+ }
+ #username{
+    color:white;
+
+ }
+ #logout{
+     color:red;
+     font-size:0.8;
+     cursor:pointer;
+ }

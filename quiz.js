@@ -17,7 +17,7 @@
     let nextButton = document.getElementById("right-arrow");
     let backButton = document.getElementById("left-arrow");
     let body = document.getElementsByTagName("body");
-    var tempArr;
+    var classicMode = document.getElementById("classic-mode");
     
     
     // num is the currentQuestion index.
@@ -25,6 +25,7 @@
     var numArr = -1;
     var totalPoints = 0;
     // Initializing Buttons.
+    
     backButton.addEventListener("click", back);
     nextButton.addEventListener("click", next);
     submit.addEventListener("click", storeUserAnswer);
@@ -124,4 +125,4 @@ function closeScoreScreen(){
     // Ends the game.
 function endGame(){}
 // start the quiz.
-play();
+
