@@ -366,3 +366,19 @@ background-color:darkgrey;
         height:auto;
     }
  }
+
+ @media only screen and (max-width:900px){
+     #quiz-container{
+         width:100vw;
+     }
+     #status-container{
+         width:100%;
+     }
+     #question-container{
+         width:90%;
+     }
+     #input-container{
+         width:50vw;
+     }
+     
+ }
