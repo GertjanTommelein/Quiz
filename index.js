@@ -1,0 +1,1 @@
+let classicMode = document.getElementById("classic-mode");
